@@ -99,9 +99,6 @@ ui <- fluidPage(
   flowLayout(actionButton("slack.send", "Versende die Nachrichten",width = "210px"),
              checkboxInput("test","Nachricht geht an Test-Channel",TRUE,width = "250px")),
   textOutput("slack.output"),
-  
-  
-  
 )
 
 

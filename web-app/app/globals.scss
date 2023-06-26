@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dmun-primary: #3d7dd2;
+  --dmun-black: #000;
+  --voting-for: #188a42;
+  --voting-abstain: #3d7dd2;
+  --voting-against: #ff3d32;
+}
+
+
+body {
+  font-family: var(--font-family);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.custom-scrollbar {
+  .p-scrollpanel, .p-scrollpanel:active {
+    .p-scrollpanel-bar, .p-scrollpanel-bar-x, .p-scrollpanel-bar-y {
+      background: #e2e2e2 !important;
+    }
+  }
+}
